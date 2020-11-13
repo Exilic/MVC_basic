@@ -1,0 +1,55 @@
+﻿<Properties StartupConfiguration="{74803337-685C-4896-8B93-9065AEA5704B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Home/Contact.cshtml">
+    <Files>
+      <File FileName="Startup.cs" Line="70" Column="1" />
+      <File FileName="Views/Shared/_Layout.cshtml" Line="14" Column="58" />
+      <File FileName="Models/Project.cs" Line="11" Column="1" />
+      <File FileName="Models/PersonLife.cs" Line="28" Column="1" />
+      <File FileName="Models/LifeEvent.cs" Line="11" Column="1" />
+      <File FileName="Controllers/HomeController.cs" Line="8" Column="34" />
+      <File FileName="Controllers/ProjectsController.cs" Line="22" Column="32" />
+      <File FileName="Controllers/AboutController.cs" Line="15" Column="9" />
+      <File FileName="Models/CheckTemperature.cs" Line="6" Column="11" />
+      <File FileName="Controllers/ServicesController.cs" Line="5" Column="33" />
+      <File FileName="Views/About/Index.cshtml" Line="10" Column="39" />
+      <File FileName="Views/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="wwwroot/css/site.css" Line="64" Column="2" />
+      <File FileName="Views/Home/Contact.cshtml" Line="14" Column="17" />
+      <File FileName="Views/Projects/Index.cshtml" Line="8" Column="14" />
+      <File FileName="Models/GitHubProjects.cs" Line="25" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MVCBasicsAssignment" expanded="True">
+            <Node name="MVCBasicsAssignment" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="About" expanded="True" />
+                <Node name="Home" expanded="True">
+                  <Node name="Contact.cshtml" selected="True" />
+                </Node>
+                <Node name="Projects" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MVCBasicsAssignment PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
