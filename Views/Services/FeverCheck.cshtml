@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Title"] = "Fever Check";
+}
+
+<h1>Get a second opinion on your temperature</h1>
+<p>Take your temperature first and then enter the value in the form below. Indicate which scale you use. </p>
+
+<form id="FeverCheck" asp-action="FeverCheck" method="post">
+    <label id="BodyDegree">Write your body temperature:</label>
+    <input id="BodyDegree" name="degree" type="number" step=".1" />
+    <input type="radio" id="Celsius" name="scale" value="Celsius" checked="checked" />
+    <label id="Celsius">Celsius</label>
+    <input type="radio" id="Fahrenheit" name="scale" value="Fahrenheit" />
+    <label id="Fahrenheit">Fahrenheit</label>
+    <input type="submit" value="Submit" />
+</form>
+
+<p>@ViewBag.Message</p>

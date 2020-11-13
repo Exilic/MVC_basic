@@ -1,0 +1,27 @@
+﻿@model List<LifeEvent>
+@{
+    ViewData["Title"] = "About";
+}
+
+<h1>About</h1>
+
+<h3>Work Experience</h3>
+<table id="AboutList">
+    @foreach (LifeEvent item in Model)
+    {
+        if (@item.Kind == "Work")
+        {
+            <tr><td>@item.Period</td><td>@item.Description</td></tr>
+}
+    }
+</table>
+<h3>Educational Degrees</h3>
+<table id="AboutList">
+    @foreach (LifeEvent item in Model)
+    {
+        if (@item.Kind == "Education")
+        {
+            <tr><td>@item.Period</td><td>@item.Description</td></tr>
+        }
+    }
+</table>

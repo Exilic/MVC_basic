@@ -1,0 +1,14 @@
+﻿
+@{
+}
+
+<h1>A Joyful Distraction</h1>
+<p>@ViewBag.random</p>
+<p>A random number between 1 and 100 has been chosen for you. </p>
+<form asp-action="GuessingGame" method="post">
+    <label for="numberGuessing">Guess what number it is: </label>
+    <input id="numberGuessing" name="guess" type="number" min="1" max="100"/>
+    <input type="submit" value="Guess" />
+</form>
+
+<p>@ViewBag.Message</p>

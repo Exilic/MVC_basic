@@ -1,0 +1,64 @@
+﻿html {
+    height: 100%;
+}
+
+body {
+    width: 600px;
+    margin: auto;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 100px 1fr auto;
+}
+
+body header {
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-row: 1 / 2;
+}
+
+body header img {
+    padding: 10px 0px 0px 30px;
+}
+
+body header ul {
+    list-style: none;
+    display: flex;
+}
+
+body header ul li {
+    padding: 0px 20px;
+    font-size: 1.2em;
+}
+
+body header ul li a:link {
+    text-decoration: none;
+    color: black;
+}
+
+body header ul li a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+body div {
+    grid-row: 2 / 3;
+}
+
+body footer {
+    grid-row: 3 / 4;
+    padding-bottom: 20px;
+}
+
+#FeverCheck * {
+    padding: 5px;
+}
+
+#ProjectsList {
+    display: flex;
+}
+
+#ProjectsList section {
+    display: block;
+    padding: 10px;
+
+}

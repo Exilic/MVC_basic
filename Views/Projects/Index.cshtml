@@ -1,0 +1,18 @@
+﻿@model List<Project>
+@{
+    ViewData["Title"] = "Projects";
+}
+
+<h1>Projects</h1>
+
+<article id="ProjectsList">
+    @foreach (Project item in Model)
+    {
+        <section>
+            <h2>@item.Name</h2>
+            <p>@item.Description</p>
+            <a href="@item.WebAdress">@item.WebAdress</a>
+        </section>
+    }
+
+</article>
