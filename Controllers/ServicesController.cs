@@ -41,6 +41,7 @@ namespace MVCBasicsAssignment.Controllers
             return View();
         }
 
+        [HttpPost]
         public IActionResult GuessingGame(string guess)
         {
             HttpContext.Session.SetInt32("trials", (int)(HttpContext.Session.GetInt32("trials")+1));
